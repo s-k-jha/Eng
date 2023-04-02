@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body starts */
+  body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* body ends */
+  
+  /* center is for space between header and footer that cover quiz page */
+  .center {
+    background: url('/Media/bg\ for\ quiz\ page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* styling for questions html file */
+  html {
+    background: #fff;
+  }
+  
+  .quiz-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    /* background-color: #8dd6c0; */
+    background-image: url('/Media/gradiant\ for\ question.jpg');
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .question-container {
+    margin-bottom: 30px;
+  
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  input[type=radio] {
+    margin-right: 10px;
+  }
+  .submit-button {
+  
+    background-color: #e017f2;
+    color: white;
+    padding: 10px 20px;
+    /* padding-top: 20px; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: x-large;
+  }
+  
+  .submit-button:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    transform: translate(-5%, -5%);
+    transition: all 0.8s ease-out;
+  }
+  
+  .button {
+    text-align: center;
+    padding-top: 50px;
+  
+  }
